@@ -23,64 +23,64 @@ Partial Class Form3
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.txtLayanan = New System.Windows.Forms.TextBox()
+        Me.txtHarga = New System.Windows.Forms.TextBox()
+        Me.btnSimpan = New System.Windows.Forms.Button()
+        Me.btnBatal = New System.Windows.Forms.Button()
+        Me.btnDataLayanan = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'txtLayanan
         '
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Location = New System.Drawing.Point(81, 304)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(840, 15)
-        Me.TextBox1.TabIndex = 2
+        Me.txtLayanan.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtLayanan.Location = New System.Drawing.Point(81, 304)
+        Me.txtLayanan.Name = "txtLayanan"
+        Me.txtLayanan.Size = New System.Drawing.Size(840, 15)
+        Me.txtLayanan.TabIndex = 2
         '
-        'TextBox2
+        'txtHarga
         '
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Location = New System.Drawing.Point(81, 379)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(840, 15)
-        Me.TextBox2.TabIndex = 3
+        Me.txtHarga.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtHarga.Location = New System.Drawing.Point(81, 379)
+        Me.txtHarga.Name = "txtHarga"
+        Me.txtHarga.Size = New System.Drawing.Size(840, 15)
+        Me.txtHarga.TabIndex = 3
         '
-        'Button1
+        'btnSimpan
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.Button1.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(62, 439)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(432, 48)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Simpan"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnSimpan.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(244, Byte), Integer))
+        Me.btnSimpan.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSimpan.ForeColor = System.Drawing.Color.White
+        Me.btnSimpan.Location = New System.Drawing.Point(62, 439)
+        Me.btnSimpan.Name = "btnSimpan"
+        Me.btnSimpan.Size = New System.Drawing.Size(432, 48)
+        Me.btnSimpan.TabIndex = 4
+        Me.btnSimpan.Text = "Simpan"
+        Me.btnSimpan.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnBatal
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
-        Me.Button2.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(510, 439)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(432, 48)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Batal"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnBatal.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.btnBatal.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBatal.ForeColor = System.Drawing.Color.White
+        Me.btnBatal.Location = New System.Drawing.Point(510, 439)
+        Me.btnBatal.Name = "btnBatal"
+        Me.btnBatal.Size = New System.Drawing.Size(432, 48)
+        Me.btnBatal.TabIndex = 5
+        Me.btnBatal.Text = "Batal"
+        Me.btnBatal.UseVisualStyleBackColor = False
         '
-        'Button3
+        'btnDataLayanan
         '
-        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button3.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(62, 510)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(880, 48)
-        Me.Button3.TabIndex = 6
-        Me.Button3.Text = "Data Layanan"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.btnDataLayanan.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnDataLayanan.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDataLayanan.ForeColor = System.Drawing.Color.White
+        Me.btnDataLayanan.Location = New System.Drawing.Point(62, 510)
+        Me.btnDataLayanan.Name = "btnDataLayanan"
+        Me.btnDataLayanan.Size = New System.Drawing.Size(880, 48)
+        Me.btnDataLayanan.TabIndex = 6
+        Me.btnDataLayanan.Text = "Data Layanan"
+        Me.btnDataLayanan.UseVisualStyleBackColor = False
         '
         'Form3
         '
@@ -89,22 +89,23 @@ Partial Class Form3
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1006, 721)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.btnDataLayanan)
+        Me.Controls.Add(Me.btnBatal)
+        Me.Controls.Add(Me.btnSimpan)
+        Me.Controls.Add(Me.txtHarga)
+        Me.Controls.Add(Me.txtLayanan)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form3"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form3"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents txtLayanan As System.Windows.Forms.TextBox
+    Friend WithEvents txtHarga As System.Windows.Forms.TextBox
+    Friend WithEvents btnSimpan As System.Windows.Forms.Button
+    Friend WithEvents btnBatal As System.Windows.Forms.Button
+    Friend WithEvents btnDataLayanan As System.Windows.Forms.Button
 End Class

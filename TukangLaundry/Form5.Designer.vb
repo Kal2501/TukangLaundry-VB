@@ -23,68 +23,70 @@ Partial Class Form5
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form5))
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.txtNamaPelanggan = New System.Windows.Forms.TextBox()
+        Me.txtBerat = New System.Windows.Forms.TextBox()
+        Me.dtpTanggalPesanan = New System.Windows.Forms.DateTimePicker()
+        Me.dtpTanggalSelesai = New System.Windows.Forms.DateTimePicker()
+        Me.cmbLayanan = New System.Windows.Forms.ComboBox()
+        Me.cmbStatus = New System.Windows.Forms.ComboBox()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnBatal = New System.Windows.Forms.Button()
+        Me.btnSimpan = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'txtNamaPelanggan
         '
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Location = New System.Drawing.Point(83, 226)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(840, 15)
-        Me.TextBox1.TabIndex = 3
+        Me.txtNamaPelanggan.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtNamaPelanggan.Location = New System.Drawing.Point(83, 226)
+        Me.txtNamaPelanggan.Name = "txtNamaPelanggan"
+        Me.txtNamaPelanggan.Size = New System.Drawing.Size(840, 15)
+        Me.txtNamaPelanggan.TabIndex = 3
         '
-        'TextBox2
+        'txtBerat
         '
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Location = New System.Drawing.Point(83, 302)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(840, 15)
-        Me.TextBox2.TabIndex = 4
+        Me.txtBerat.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtBerat.Location = New System.Drawing.Point(83, 302)
+        Me.txtBerat.Name = "txtBerat"
+        Me.txtBerat.Size = New System.Drawing.Size(840, 15)
+        Me.txtBerat.TabIndex = 4
         '
-        'DateTimePicker1
+        'dtpTanggalPesanan
         '
-        Me.DateTimePicker1.CalendarForeColor = System.Drawing.SystemColors.Window
-        Me.DateTimePicker1.CalendarMonthBackground = System.Drawing.Color.Transparent
-        Me.DateTimePicker1.Location = New System.Drawing.Point(83, 376)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(392, 22)
-        Me.DateTimePicker1.TabIndex = 5
+        Me.dtpTanggalPesanan.CalendarForeColor = System.Drawing.SystemColors.Window
+        Me.dtpTanggalPesanan.CalendarMonthBackground = System.Drawing.Color.Transparent
+        Me.dtpTanggalPesanan.Location = New System.Drawing.Point(83, 376)
+        Me.dtpTanggalPesanan.Name = "dtpTanggalPesanan"
+        Me.dtpTanggalPesanan.Size = New System.Drawing.Size(392, 22)
+        Me.dtpTanggalPesanan.TabIndex = 5
         '
-        'DateTimePicker2
+        'dtpTanggalSelesai
         '
-        Me.DateTimePicker2.CalendarForeColor = System.Drawing.SystemColors.Window
-        Me.DateTimePicker2.CalendarMonthBackground = System.Drawing.Color.Transparent
-        Me.DateTimePicker2.Location = New System.Drawing.Point(531, 376)
-        Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(392, 22)
-        Me.DateTimePicker2.TabIndex = 6
+        Me.dtpTanggalSelesai.CalendarForeColor = System.Drawing.SystemColors.Window
+        Me.dtpTanggalSelesai.CalendarMonthBackground = System.Drawing.Color.Transparent
+        Me.dtpTanggalSelesai.Location = New System.Drawing.Point(531, 376)
+        Me.dtpTanggalSelesai.Name = "dtpTanggalSelesai"
+        Me.dtpTanggalSelesai.Size = New System.Drawing.Size(392, 22)
+        Me.dtpTanggalSelesai.TabIndex = 6
         '
-        'ComboBox1
+        'cmbLayanan
         '
-        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(83, 449)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(392, 24)
-        Me.ComboBox1.TabIndex = 7
+        Me.cmbLayanan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbLayanan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmbLayanan.FormattingEnabled = True
+        Me.cmbLayanan.Location = New System.Drawing.Point(83, 449)
+        Me.cmbLayanan.Name = "cmbLayanan"
+        Me.cmbLayanan.Size = New System.Drawing.Size(392, 24)
+        Me.cmbLayanan.TabIndex = 7
         '
-        'ComboBox2
+        'cmbStatus
         '
-        Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(531, 449)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(392, 24)
-        Me.ComboBox2.TabIndex = 8
+        Me.cmbStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmbStatus.FormattingEnabled = True
+        Me.cmbStatus.Location = New System.Drawing.Point(531, 449)
+        Me.cmbStatus.Name = "cmbStatus"
+        Me.cmbStatus.Size = New System.Drawing.Size(392, 24)
+        Me.cmbStatus.TabIndex = 8
         '
         'Button3
         '
@@ -98,29 +100,29 @@ Partial Class Form5
         Me.Button3.Text = "Data Layanan"
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnBatal
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
-        Me.Button2.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(511, 504)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(432, 48)
-        Me.Button2.TabIndex = 10
-        Me.Button2.Text = "Batal"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnBatal.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.btnBatal.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBatal.ForeColor = System.Drawing.Color.White
+        Me.btnBatal.Location = New System.Drawing.Point(511, 504)
+        Me.btnBatal.Name = "btnBatal"
+        Me.btnBatal.Size = New System.Drawing.Size(432, 48)
+        Me.btnBatal.TabIndex = 10
+        Me.btnBatal.Text = "Batal"
+        Me.btnBatal.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnSimpan
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.Button1.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(63, 504)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(432, 48)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Simpan"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnSimpan.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(244, Byte), Integer))
+        Me.btnSimpan.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSimpan.ForeColor = System.Drawing.Color.White
+        Me.btnSimpan.Location = New System.Drawing.Point(63, 504)
+        Me.btnSimpan.Name = "btnSimpan"
+        Me.btnSimpan.Size = New System.Drawing.Size(432, 48)
+        Me.btnSimpan.TabIndex = 9
+        Me.btnSimpan.Text = "Simpan"
+        Me.btnSimpan.UseVisualStyleBackColor = False
         '
         'Form5
         '
@@ -130,29 +132,30 @@ Partial Class Form5
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1006, 721)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.DateTimePicker2)
-        Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.btnBatal)
+        Me.Controls.Add(Me.btnSimpan)
+        Me.Controls.Add(Me.cmbStatus)
+        Me.Controls.Add(Me.cmbLayanan)
+        Me.Controls.Add(Me.dtpTanggalSelesai)
+        Me.Controls.Add(Me.dtpTanggalPesanan)
+        Me.Controls.Add(Me.txtBerat)
+        Me.Controls.Add(Me.txtNamaPelanggan)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form5"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form5"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents DateTimePicker2 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents txtNamaPelanggan As System.Windows.Forms.TextBox
+    Friend WithEvents txtBerat As System.Windows.Forms.TextBox
+    Friend WithEvents dtpTanggalPesanan As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtpTanggalSelesai As System.Windows.Forms.DateTimePicker
+    Friend WithEvents cmbLayanan As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbStatus As System.Windows.Forms.ComboBox
     Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnBatal As System.Windows.Forms.Button
+    Friend WithEvents btnSimpan As System.Windows.Forms.Button
 End Class

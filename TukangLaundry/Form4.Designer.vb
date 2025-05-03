@@ -23,39 +23,39 @@ Partial Class Form4
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form4))
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtLayanan = New System.Windows.Forms.TextBox()
+        Me.txtHarga = New System.Windows.Forms.TextBox()
+        Me.txtSearch = New System.Windows.Forms.TextBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnHapus = New System.Windows.Forms.Button()
+        Me.btnUbah = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'txtLayanan
         '
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Location = New System.Drawing.Point(81, 436)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(840, 15)
-        Me.TextBox1.TabIndex = 3
+        Me.txtLayanan.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtLayanan.Location = New System.Drawing.Point(81, 436)
+        Me.txtLayanan.Name = "txtLayanan"
+        Me.txtLayanan.Size = New System.Drawing.Size(840, 15)
+        Me.txtLayanan.TabIndex = 3
         '
-        'TextBox2
+        'txtHarga
         '
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Location = New System.Drawing.Point(81, 510)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(840, 15)
-        Me.TextBox2.TabIndex = 4
+        Me.txtHarga.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtHarga.Location = New System.Drawing.Point(81, 510)
+        Me.txtHarga.Name = "txtHarga"
+        Me.txtHarga.Size = New System.Drawing.Size(840, 15)
+        Me.txtHarga.TabIndex = 4
         '
-        'TextBox3
+        'txtSearch
         '
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox3.Location = New System.Drawing.Point(105, 164)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(816, 15)
-        Me.TextBox3.TabIndex = 5
+        Me.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtSearch.Location = New System.Drawing.Point(105, 164)
+        Me.txtSearch.Name = "txtSearch"
+        Me.txtSearch.Size = New System.Drawing.Size(816, 15)
+        Me.txtSearch.TabIndex = 5
         '
         'DataGridView1
         '
@@ -78,29 +78,29 @@ Partial Class Form4
         Me.Button3.Text = "Kembali ke Menu"
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnHapus
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
-        Me.Button2.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(509, 557)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(432, 48)
-        Me.Button2.TabIndex = 8
-        Me.Button2.Text = "Hapus"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnHapus.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Me.btnHapus.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnHapus.ForeColor = System.Drawing.Color.White
+        Me.btnHapus.Location = New System.Drawing.Point(509, 557)
+        Me.btnHapus.Name = "btnHapus"
+        Me.btnHapus.Size = New System.Drawing.Size(432, 48)
+        Me.btnHapus.TabIndex = 8
+        Me.btnHapus.Text = "Hapus"
+        Me.btnHapus.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnUbah
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.Button1.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(61, 557)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(432, 48)
-        Me.Button1.TabIndex = 7
-        Me.Button1.Text = "Ubah"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnUbah.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(244, Byte), Integer))
+        Me.btnUbah.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUbah.ForeColor = System.Drawing.Color.White
+        Me.btnUbah.Location = New System.Drawing.Point(61, 557)
+        Me.btnUbah.Name = "btnUbah"
+        Me.btnUbah.Size = New System.Drawing.Size(432, 48)
+        Me.btnUbah.TabIndex = 7
+        Me.btnUbah.Text = "Ubah"
+        Me.btnUbah.UseVisualStyleBackColor = False
         '
         'Form4
         '
@@ -110,26 +110,27 @@ Partial Class Form4
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1006, 721)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnHapus)
+        Me.Controls.Add(Me.btnUbah)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtSearch)
+        Me.Controls.Add(Me.txtHarga)
+        Me.Controls.Add(Me.txtLayanan)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form4"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form4"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtLayanan As System.Windows.Forms.TextBox
+    Friend WithEvents txtHarga As System.Windows.Forms.TextBox
+    Friend WithEvents txtSearch As System.Windows.Forms.TextBox
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnHapus As System.Windows.Forms.Button
+    Friend WithEvents btnUbah As System.Windows.Forms.Button
 End Class
