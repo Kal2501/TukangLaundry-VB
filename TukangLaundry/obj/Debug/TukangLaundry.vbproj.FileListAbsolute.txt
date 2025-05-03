@@ -1,0 +1,16 @@
+C:\Users\USER\AppData\Local\Temporary Projects\TukangLaundry\bin\Debug\TukangLaundry.exe.config
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\bin\Debug\TukangLaundry.exe.config
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\bin\Debug\TukangLaundry.exe
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\bin\Debug\TukangLaundry.pdb
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\bin\Debug\TukangLaundry.xml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.Form1.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.Resources.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.vbproj.GenerateResource.Cache
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.exe
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.xml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.pdb
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.Form2.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.Form3.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.Form4.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.Form5.resources
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.Form6.resources
