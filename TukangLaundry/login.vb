@@ -1,6 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 
-Public Class Form1
+Public Class login
 
     Sub Kosong()
         txtUsername.Clear()
@@ -29,7 +29,7 @@ Public Class Form1
 
             If reader.HasRows Then
                 MessageBox.Show("Login berhasil!")
-                Form2.Show()
+                MenuUtama.Show()
                 Me.Hide()
             Else
                 MessageBox.Show("Username atau password salah!")
@@ -41,5 +41,9 @@ Public Class Form1
         Catch ex As Exception
             MessageBox.Show("Terjadi kesalahan: " & ex.Message)
         End Try
+    End Sub
+
+    Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

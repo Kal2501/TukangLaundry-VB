@@ -1,18 +1,8 @@
 ﻿Imports MySql.Data.MySqlClient
 
-Public Class Form3
+Public Class TambahLayanan
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs)
-        Form4.Show()
-        Me.Close()
-    End Sub
-
-    Sub Kosong()
-        txtLayanan.Clear()
-        txtHarga.Clear()
-    End Sub
-
-    Private Sub txtHarga_KeyPress(sender As Object, e As KeyPressEventArgs)
+    Private Sub txtHarga_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtHarga.KeyPress
         If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsDigit(e.KeyChar) AndAlso e.KeyChar <> "." Then
             e.Handled = True
         End If
@@ -22,7 +12,12 @@ Public Class Form3
         End If
     End Sub
 
-    Private Sub btnSimpan_Click(sender As Object, e As EventArgs)
+    Sub Kosong()
+        txtLayanan.Clear()
+        txtHarga.Clear()
+    End Sub
+
+    Private Sub btnTambah_Click(sender As Object, e As EventArgs) Handles btnTambah.Click
         If txtLayanan.Text = "" Or txtHarga.Text = "" Then
             MessageBox.Show("Isi semua data.")
             Exit Sub
@@ -34,14 +29,21 @@ Public Class Form3
         CMD.Parameters.AddWithValue("@harga_per_kg", Val(txtHarga.Text))
         CMD.Parameters.AddWithValue("@nama", txtLayanan.Text)
         CMD.ExecuteNonQuery()
-
-        MessageBox.Show("Data berhasil ditambahkan!!")
-        Form4.TampilData()
+        MessageBox.Show("Data layanan berhasil ditambahkan!")
         Kosong()
     End Sub
 
-    Private Sub btnBatal_Click(sender As Object, e As EventArgs)
+
+    Private Sub btnBatal_Click(sender As Object, e As EventArgs) Handles btnBatal.Click
         Kosong()
     End Sub
 
+    Private Sub btnKembali_Click(sender As Object, e As EventArgs) Handles btnKembali.Click
+        DataLayanan.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub TambahLayanan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
