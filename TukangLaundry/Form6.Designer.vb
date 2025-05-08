@@ -25,124 +25,64 @@ Partial Class Form6
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form6))
         Me.txtSearch = New System.Windows.Forms.TextBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.btnHapus = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.btnUbah = New System.Windows.Forms.Button()
-        Me.cmbStatus = New System.Windows.Forms.ComboBox()
-        Me.cmbLayanan = New System.Windows.Forms.ComboBox()
-        Me.dtpTanggalSelesai = New System.Windows.Forms.DateTimePicker()
-        Me.dtpTanggalPesan = New System.Windows.Forms.DateTimePicker()
-        Me.txtBerat = New System.Windows.Forms.TextBox()
-        Me.txtNamaPelanggan = New System.Windows.Forms.TextBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtSearch
         '
         Me.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtSearch.Location = New System.Drawing.Point(104, 126)
+        Me.txtSearch.Location = New System.Drawing.Point(107, 211)
         Me.txtSearch.Name = "txtSearch"
-        Me.txtSearch.Size = New System.Drawing.Size(816, 15)
-        Me.txtSearch.TabIndex = 6
+        Me.txtSearch.Size = New System.Drawing.Size(826, 15)
+        Me.txtSearch.TabIndex = 17
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(80, 172)
+        Me.DataGridView1.Location = New System.Drawing.Point(76, 265)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(840, 108)
-        Me.DataGridView1.TabIndex = 7
+        Me.DataGridView1.Size = New System.Drawing.Size(857, 312)
+        Me.DataGridView1.TabIndex = 16
         '
-        'Button3
+        'Button2
         '
-        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button3.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(60, 643)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(880, 41)
-        Me.Button3.TabIndex = 20
-        Me.Button3.Text = "Kembali ke Menu"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button2.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.White
+        Me.Button2.Location = New System.Drawing.Point(514, 610)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(430, 43)
+        Me.Button2.TabIndex = 15
+        Me.Button2.Text = "Kembali"
+        Me.Button2.UseVisualStyleBackColor = False
         '
-        'btnHapus
+        'Button1
         '
-        Me.btnHapus.BackColor = System.Drawing.Color.FromArgb(CType(CType(239, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
-        Me.btnHapus.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnHapus.ForeColor = System.Drawing.Color.White
-        Me.btnHapus.Location = New System.Drawing.Point(508, 598)
-        Me.btnHapus.Name = "btnHapus"
-        Me.btnHapus.Size = New System.Drawing.Size(432, 39)
-        Me.btnHapus.TabIndex = 19
-        Me.btnHapus.Text = "Hapus"
-        Me.btnHapus.UseVisualStyleBackColor = False
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(244, Byte), Integer))
+        Me.Button1.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(58, 610)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(430, 43)
+        Me.Button1.TabIndex = 14
+        Me.Button1.Text = "Cetak Data"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'btnUbah
         '
         Me.btnUbah.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.btnUbah.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnUbah.ForeColor = System.Drawing.Color.White
-        Me.btnUbah.Location = New System.Drawing.Point(60, 598)
+        Me.btnUbah.Location = New System.Drawing.Point(800, 141)
         Me.btnUbah.Name = "btnUbah"
-        Me.btnUbah.Size = New System.Drawing.Size(432, 39)
-        Me.btnUbah.TabIndex = 18
-        Me.btnUbah.Text = "Ubah"
+        Me.btnUbah.Size = New System.Drawing.Size(144, 43)
+        Me.btnUbah.TabIndex = 13
+        Me.btnUbah.Text = "Tambah"
         Me.btnUbah.UseVisualStyleBackColor = False
-        '
-        'cmbStatus
-        '
-        Me.cmbStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cmbStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.cmbStatus.FormattingEnabled = True
-        Me.cmbStatus.Location = New System.Drawing.Point(528, 554)
-        Me.cmbStatus.Name = "cmbStatus"
-        Me.cmbStatus.Size = New System.Drawing.Size(392, 24)
-        Me.cmbStatus.TabIndex = 17
-        '
-        'cmbLayanan
-        '
-        Me.cmbLayanan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cmbLayanan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.cmbLayanan.FormattingEnabled = True
-        Me.cmbLayanan.Location = New System.Drawing.Point(80, 554)
-        Me.cmbLayanan.Name = "cmbLayanan"
-        Me.cmbLayanan.Size = New System.Drawing.Size(392, 24)
-        Me.cmbLayanan.TabIndex = 16
-        '
-        'dtpTanggalSelesai
-        '
-        Me.dtpTanggalSelesai.CalendarForeColor = System.Drawing.SystemColors.Window
-        Me.dtpTanggalSelesai.CalendarMonthBackground = System.Drawing.Color.Transparent
-        Me.dtpTanggalSelesai.Location = New System.Drawing.Point(528, 482)
-        Me.dtpTanggalSelesai.Name = "dtpTanggalSelesai"
-        Me.dtpTanggalSelesai.Size = New System.Drawing.Size(392, 22)
-        Me.dtpTanggalSelesai.TabIndex = 15
-        '
-        'dtpTanggalPesan
-        '
-        Me.dtpTanggalPesan.CalendarForeColor = System.Drawing.SystemColors.Window
-        Me.dtpTanggalPesan.CalendarMonthBackground = System.Drawing.Color.Transparent
-        Me.dtpTanggalPesan.Location = New System.Drawing.Point(80, 482)
-        Me.dtpTanggalPesan.Name = "dtpTanggalPesan"
-        Me.dtpTanggalPesan.Size = New System.Drawing.Size(392, 22)
-        Me.dtpTanggalPesan.TabIndex = 14
-        '
-        'txtBerat
-        '
-        Me.txtBerat.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtBerat.Location = New System.Drawing.Point(80, 413)
-        Me.txtBerat.Name = "txtBerat"
-        Me.txtBerat.Size = New System.Drawing.Size(840, 15)
-        Me.txtBerat.TabIndex = 13
-        '
-        'txtNamaPelanggan
-        '
-        Me.txtNamaPelanggan.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtNamaPelanggan.Location = New System.Drawing.Point(80, 337)
-        Me.txtNamaPelanggan.Name = "txtNamaPelanggan"
-        Me.txtNamaPelanggan.Size = New System.Drawing.Size(840, 15)
-        Me.txtNamaPelanggan.TabIndex = 12
         '
         'Form6
         '
@@ -151,17 +91,11 @@ Partial Class Form6
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1006, 721)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.btnHapus)
-        Me.Controls.Add(Me.btnUbah)
-        Me.Controls.Add(Me.cmbStatus)
-        Me.Controls.Add(Me.cmbLayanan)
-        Me.Controls.Add(Me.dtpTanggalSelesai)
-        Me.Controls.Add(Me.dtpTanggalPesan)
-        Me.Controls.Add(Me.txtBerat)
-        Me.Controls.Add(Me.txtNamaPelanggan)
-        Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.txtSearch)
+        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnUbah)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form6"
@@ -174,13 +108,7 @@ Partial Class Form6
     End Sub
     Friend WithEvents txtSearch As System.Windows.Forms.TextBox
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents btnHapus As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents btnUbah As System.Windows.Forms.Button
-    Friend WithEvents cmbStatus As System.Windows.Forms.ComboBox
-    Friend WithEvents cmbLayanan As System.Windows.Forms.ComboBox
-    Friend WithEvents dtpTanggalSelesai As System.Windows.Forms.DateTimePicker
-    Friend WithEvents dtpTanggalPesan As System.Windows.Forms.DateTimePicker
-    Friend WithEvents txtBerat As System.Windows.Forms.TextBox
-    Friend WithEvents txtNamaPelanggan As System.Windows.Forms.TextBox
 End Class

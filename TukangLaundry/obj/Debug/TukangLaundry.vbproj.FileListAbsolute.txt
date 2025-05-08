@@ -31,3 +31,4 @@ D:\kuliah\Semester 4\Pemvis\TukangLaundry-VB\TukangLaundry\obj\Debug\TukangLaund
 D:\kuliah\Semester 4\Pemvis\TukangLaundry-VB\TukangLaundry\obj\Debug\TukangLaundry.Form6.resources
 D:\kuliah\Semester 4\Pemvis\TukangLaundry-VB\TukangLaundry\obj\Debug\TukangLaundry.Resources.resources
 D:\kuliah\Semester 4\Pemvis\TukangLaundry-VB\TukangLaundry\obj\Debug\TukangLaundry.vbproj.GenerateResource.Cache
+C:\Users\USER\Documents\Visual Studio 2012\Projects\TukangLaundry\TukangLaundry\obj\Debug\TukangLaundry.vbprojResolveAssemblyReference.cache

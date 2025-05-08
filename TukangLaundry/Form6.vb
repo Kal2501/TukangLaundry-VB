@@ -5,7 +5,7 @@ Public Class Form6
     Dim statusEdit As Boolean = False
     Dim idEdit As Integer
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs)
         Form2.Show()
         Me.Close()
     End Sub
@@ -86,7 +86,7 @@ Public Class Form6
         statusEdit = False
     End Sub
 
-    Private Sub btnUbah_Click(sender As Object, e As EventArgs) Handles btnUbah.Click
+    Private Sub btnUbah_Click(sender As Object, e As EventArgs)
         If Not statusEdit Then Exit Sub
         koneksi()
         Dim idLayanan As Integer = Val(Split(cmbLayanan.Text, " - ")(0))
@@ -123,7 +123,7 @@ Public Class Form6
         Kosong()
     End Sub
 
-    Private Sub btnHapus_Click(sender As Object, e As EventArgs) Handles btnHapus.Click
+    Private Sub btnHapus_Click(sender As Object, e As EventArgs)
         If Not statusEdit Then Exit Sub
         If MessageBox.Show("Hapus data ini?", "Konfirmasi", MessageBoxButtons.YesNo) = DialogResult.Yes Then
             koneksi()
@@ -135,7 +135,7 @@ Public Class Form6
         End If
     End Sub
 
-    Private Sub DataGridView1_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellClick
+    Private Sub DataGridView1_CellClick(sender As Object, e As DataGridViewCellEventArgs)
         If e.RowIndex >= 0 Then
             Dim row As DataGridViewRow = DataGridView1.Rows(e.RowIndex)
             idEdit = row.Cells(0).Value
@@ -149,7 +149,7 @@ Public Class Form6
         End If
     End Sub
 
-    Private Sub txtSearch_TextChanged(sender As Object, e As EventArgs) Handles txtSearch.TextChanged
+    Private Sub txtSearch_TextChanged(sender As Object, e As EventArgs)
         koneksi()
         DA = New MySqlDataAdapter("SELECT p.pesanan_id, p.nama_pelanggan, p.berat_kg, p.tanggal_pesanan, p.tanggal_selesai,  IF(p.status = 1, 'Selesai', 'Belum') AS status, l.nama, (p.berat_kg * l.harga_per_kg) AS total_harga  FROM pesanan p JOIN paket l ON p.layanan_id = l.paket_id WHERE p.nama_pelanggan LIKE '%" & txtSearch.Text & "%'", CONN)
         DS = New DataSet()

@@ -33,7 +33,7 @@ Partial Class Form2
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Button1.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(105, 369)
+        Me.Button1.Location = New System.Drawing.Point(99, 335)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(382, 76)
         Me.Button1.TabIndex = 1
@@ -45,7 +45,7 @@ Partial Class Form2
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Button2.Font = New System.Drawing.Font("Plus Jakarta Sans ExtraBold", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(518, 369)
+        Me.Button2.Location = New System.Drawing.Point(512, 335)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(382, 76)
         Me.Button2.TabIndex = 2
@@ -58,7 +58,7 @@ Partial Class Form2
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Plus Jakarta Sans SemiBold", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(166, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(343, 297)
+        Me.Label1.Location = New System.Drawing.Point(337, 263)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(334, 40)
         Me.Label1.TabIndex = 3

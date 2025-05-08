@@ -2,7 +2,7 @@
 
 Public Class Form3
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnDataLayanan.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs)
         Form4.Show()
         Me.Close()
     End Sub
@@ -12,7 +12,7 @@ Public Class Form3
         txtHarga.Clear()
     End Sub
 
-    Private Sub txtHarga_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtHarga.KeyPress
+    Private Sub txtHarga_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsDigit(e.KeyChar) AndAlso e.KeyChar <> "." Then
             e.Handled = True
         End If
@@ -22,7 +22,7 @@ Public Class Form3
         End If
     End Sub
 
-    Private Sub btnSimpan_Click(sender As Object, e As EventArgs) Handles btnSimpan.Click
+    Private Sub btnSimpan_Click(sender As Object, e As EventArgs)
         If txtLayanan.Text = "" Or txtHarga.Text = "" Then
             MessageBox.Show("Isi semua data.")
             Exit Sub
@@ -40,7 +40,7 @@ Public Class Form3
         Kosong()
     End Sub
 
-    Private Sub btnBatal_Click(sender As Object, e As EventArgs) Handles btnBatal.Click
+    Private Sub btnBatal_Click(sender As Object, e As EventArgs)
         Kosong()
     End Sub
 

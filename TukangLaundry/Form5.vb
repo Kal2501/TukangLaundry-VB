@@ -3,7 +3,7 @@
 Public Class Form5
 
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs)
         Form6.Show()
         Me.Close()
     End Sub
@@ -27,7 +27,7 @@ Public Class Form5
         RD.Close()
     End Sub
 
-    Private Sub btnSimpan_Click(sender As Object, e As EventArgs) Handles btnSimpan.Click
+    Private Sub btnSimpan_Click(sender As Object, e As EventArgs)
         If txtNamaPelanggan.Text = "" Or txtBerat.Text = "" Or cmbLayanan.SelectedIndex = -1 Then
             MessageBox.Show("Isi semua data.")
             Exit Sub
@@ -63,7 +63,7 @@ Public Class Form5
         Kosong()
     End Sub
 
-    Private Sub txtBerat_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtBerat.KeyPress
+    Private Sub txtBerat_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsDigit(e.KeyChar) AndAlso e.KeyChar <> "." Then
             e.Handled = True
         End If
@@ -81,7 +81,7 @@ Public Class Form5
         TampilLayanan()
     End Sub
 
-    Private Sub btnBatal_Click(sender As Object, e As EventArgs) Handles btnBatal.Click
+    Private Sub btnBatal_Click(sender As Object, e As EventArgs)
         Kosong()
     End Sub
 End Class

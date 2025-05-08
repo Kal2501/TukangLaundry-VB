@@ -59,7 +59,7 @@ Public Class Form4
         End With
     End Sub
 
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
         If e.RowIndex >= 0 Then
             Dim row As DataGridViewRow = DataGridView1.Rows(e.RowIndex)
             idEdit = row.Cells(0).Value
@@ -97,7 +97,7 @@ Public Class Form4
         End If
     End Sub
 
-    Private Sub txtSearch_TextChanged(sender As Object, e As EventArgs) Handles txtSearch.TextChanged
+    Private Sub txtSearch_TextChanged(sender As Object, e As EventArgs)
         koneksi()
         DA = New MySqlDataAdapter("SELECT * FROM paket WHERE nama LIKE '%" & txtSearch.Text & "%'", CONN)
         DS = New DataSet()
